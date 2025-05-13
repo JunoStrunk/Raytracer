@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Packages
+/MTRaytracer/packages
+
+#VS folder
+/MTRaytracer/.vs
