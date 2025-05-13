@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A78EA62C-4BAB-47BC-824F-2F44B5481463}|MTRaytracer\\MTRaytracer.vcxproj|C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\MTRaytracer\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A78EA62C-4BAB-47BC-824F-2F44B5481463}|MTRaytracer\\MTRaytracer.vcxproj|solutionrelative:MTRaytracer\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA718B4-83B0-4FC4-8495-32DEF0D331A6}|VulkanCore\\VulkanCore.vcxproj|C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\include\\VulkanApp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0EA718B4-83B0-4FC4-8495-32DEF0D331A6}|VulkanCore\\VulkanCore.vcxproj|solutionrelative:VulkanCore\\include\\VulkanApp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA718B4-83B0-4FC4-8495-32DEF0D331A6}|VulkanCore\\VulkanCore.vcxproj|C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\src\\VulkanApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0EA718B4-83B0-4FC4-8495-32DEF0D331A6}|VulkanCore\\VulkanCore.vcxproj|solutionrelative:VulkanCore\\src\\VulkanApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA718B4-83B0-4FC4-8495-32DEF0D331A6}|VulkanCore\\VulkanCore.vcxproj|C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\src\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0EA718B4-83B0-4FC4-8495-32DEF0D331A6}|VulkanCore\\VulkanCore.vcxproj|solutionrelative:VulkanCore\\src\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA718B4-83B0-4FC4-8495-32DEF0D331A6}|VulkanCore\\VulkanCore.vcxproj|C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\include\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0EA718B4-83B0-4FC4-8495-32DEF0D331A6}|VulkanCore\\VulkanCore.vcxproj|solutionrelative:VulkanCore\\include\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA718B4-83B0-4FC4-8495-32DEF0D331A6}|VulkanCore\\VulkanCore.vcxproj|C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\include\\Types.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0EA718B4-83B0-4FC4-8495-32DEF0D331A6}|VulkanCore\\VulkanCore.vcxproj|solutionrelative:VulkanCore\\include\\Types.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 260,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "pch.h",
+              "DocumentMoniker": "C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\include\\pch.h",
+              "RelativeDocumentMoniker": "VulkanCore\\include\\pch.h",
+              "ToolTip": "C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\include\\pch.h",
+              "RelativeToolTip": "VulkanCore\\include\\pch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-12T02:40:58.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "pch.cpp",
+              "DocumentMoniker": "C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\src\\pch.cpp",
+              "RelativeDocumentMoniker": "VulkanCore\\src\\pch.cpp",
+              "ToolTip": "C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\src\\pch.cpp",
+              "RelativeToolTip": "VulkanCore\\src\\pch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-12T02:40:54.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\MTRaytracer\\main.cpp",
+              "RelativeDocumentMoniker": "MTRaytracer\\main.cpp",
+              "ToolTip": "C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\MTRaytracer\\main.cpp",
+              "RelativeToolTip": "MTRaytracer\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-12T02:40:49.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Types.h",
+              "DocumentMoniker": "C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\include\\Types.h",
+              "RelativeDocumentMoniker": "VulkanCore\\include\\Types.h",
+              "ToolTip": "C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\include\\Types.h",
+              "RelativeToolTip": "VulkanCore\\include\\Types.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-12T02:35:52.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VulkanApp.cpp",
+              "DocumentMoniker": "C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\src\\VulkanApp.cpp",
+              "RelativeDocumentMoniker": "VulkanCore\\src\\VulkanApp.cpp",
+              "ToolTip": "C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\src\\VulkanApp.cpp",
+              "RelativeToolTip": "VulkanCore\\src\\VulkanApp.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-12T02:32:40.232Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 260,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VulkanApp.h",
+              "DocumentMoniker": "C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\include\\VulkanApp.h",
+              "RelativeDocumentMoniker": "VulkanCore\\include\\VulkanApp.h",
+              "ToolTip": "C:\\Users\\jstrunk\\Projects\\Raytracer\\MTRaytracer\\VulkanCore\\include\\VulkanApp.h",
+              "RelativeToolTip": "VulkanCore\\include\\VulkanApp.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-12T02:32:24.592Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 260,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{904ea1b4-c6a7-4eca-94a1-76eab06c5187}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

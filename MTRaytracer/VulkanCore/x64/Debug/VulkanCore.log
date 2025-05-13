@@ -1,0 +1,3 @@
+﻿  VulkanApp.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\optional(11): warning STL4038: The contents of <optional> are available only with C++17 or later.
+  VulkanCore.vcxproj -> C:\Users\jstrunk\Projects\Raytracer\MTRaytracer\x64\Debug\VulkanCore.lib
