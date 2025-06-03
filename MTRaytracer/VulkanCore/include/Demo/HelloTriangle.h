@@ -34,7 +34,7 @@
 //
 //private:
 //    GLFWwindow* _Window;
-//    VkInstance _Instance;
+//    VkInstance m_Instance;
 //
 //    void _InitWindow()
 //    {
@@ -61,7 +61,7 @@
 //
 //    void _Cleanup()
 //    {
-//        vkDestroyInstance(_Instance, nullptr);
+//        vkDestroyInstance(m_Instance, nullptr);
 //
 //        glfwDestroyWindow(_Window);
 //
@@ -113,7 +113,7 @@
 //            createInfo.enabledLayerCount = 0;
 //        }
 //
-//        if (vkCreateInstance(&createInfo, nullptr, &_Instance) != VK_SUCCESS)
+//        if (vkCreateInstance(&createInfo, nullptr, &m_Instance) != VK_SUCCESS)
 //        {
 //            throw std::runtime_error("failed to create instance!");
 //        }
@@ -154,7 +154,7 @@
 //        VkPhysicalDevice physicalDevice = VK_NULL_HANDLE;
 //
 //        uint32_t deviceCount = 0;
-//        vkEnumeratePhysicalDevices(_Instance, &deviceCount, nullptr);
+//        vkEnumeratePhysicalDevices(m_Instance, &deviceCount, nullptr);
 //
 //        if (deviceCount == 0)
 //        {
@@ -162,7 +162,7 @@
 //        }
 //
 //        std::vector<VkPhysicalDevice> devices(deviceCount);
-//        vkEnumeratePhysicalDevices(_Instance, &deviceCount, devices.data());
+//        vkEnumeratePhysicalDevices(m_Instance, &deviceCount, devices.data());
 //
 //        for (const auto& device : devices)
 //        {

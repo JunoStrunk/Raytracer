@@ -2,7 +2,7 @@
 #define WINDOW_HEIGHT 1080
 #define APP_NAME "MyMultithreadedVulkanRaytracerMyPrecious"
 
-#include "VulkanApp.h"
+#include "VApp.h"
 
 int main(int argc, char* argv[]) {
     glfwInit();
@@ -10,8 +10,8 @@ int main(int argc, char* argv[]) {
     glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
     GLFWwindow* window = glfwCreateWindow(WINDOW_WIDTH, WINDOW_HEIGHT, APP_NAME, nullptr, nullptr);
 
-    VulkanCore::VulkanApp app;
-    app.Init(APP_NAME);
+    VulkanCore::VApp app;
+    app.Init(APP_NAME, window);
 
     while (!glfwWindowShouldClose(window)) {
         glfwPollEvents();

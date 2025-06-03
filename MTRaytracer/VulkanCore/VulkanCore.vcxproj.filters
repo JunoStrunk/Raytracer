@@ -24,10 +24,13 @@
     <ClInclude Include="include\Demo\HelloTriangle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\VulkanApp.h">
+    <ClInclude Include="include\VApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VCore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -41,7 +44,10 @@
     <ClCompile Include="src\Demo\HelloTriangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\VulkanApp.cpp">
+    <ClCompile Include="src\VApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VCore.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

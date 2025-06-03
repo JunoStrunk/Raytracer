@@ -79,6 +79,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>C:\VulkanSDK\1.4.309.0\Include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -115,6 +116,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalIncludeDirectories>C:\VulkanSDK\1.4.309.0\Include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -147,7 +149,8 @@
     <ClInclude Include="include\framework.h" />
     <ClInclude Include="include\pch.h" />
     <ClInclude Include="include\Types.h" />
-    <ClInclude Include="include\VulkanApp.h" />
+    <ClInclude Include="include\VApp.h" />
+    <ClInclude Include="include\VCore.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Demo\HelloTriangle.cpp" />
@@ -157,7 +160,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="src\VulkanApp.cpp" />
+    <ClCompile Include="src\VApp.cpp" />
+    <ClCompile Include="src\VCore.cpp" />
     <ClCompile Include="src\VulkanCore.cpp" />
   </ItemGroup>
   <ItemGroup>

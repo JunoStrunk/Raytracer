@@ -1,3 +1,62 @@
-﻿  VulkanApp.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\optional(11): warning STL4038: The contents of <optional> are available only with C++17 or later.
+﻿  VApp.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'src/VApp.cpp')
+      C:\Users\jstrunk\Projects\Raytracer\MTRaytracer\packages\glfw.3.4.0\build\native\include\GLFW\glfw3.h(123,11):
+      see previous definition of 'APIENTRY'
+  
+  VCore.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'src/VCore.cpp')
+      C:\Users\jstrunk\Projects\Raytracer\MTRaytracer\packages\glfw.3.4.0\build\native\include\GLFW\glfw3.h(123,11):
+      see previous definition of 'APIENTRY'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\optional(156,65): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\optional(156,65): warning C4267:         with
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\optional(156,65): warning C4267:         [
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\optional(156,65): warning C4267:             _Ty=uint32_t
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\optional(156,65): warning C4267:         ]
+  (compiling source file 'src/VCore.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\optional(156,65):
+      the template instantiation context (the oldest one first) is
+          C:\Users\jstrunk\Projects\Raytracer\MTRaytracer\VulkanCore\src\VCore.cpp(198,40):
+          see reference to function template instantiation 'std::optional<uint32_t> &std::optional<uint32_t>::operator =<size_t&,0>(_Ty2) noexcept' being compiled
+          with
+          [
+              _Ty2=size_t &
+          ]
+              C:\Users\jstrunk\Projects\Raytracer\MTRaytracer\VulkanCore\src\VCore.cpp(198,40):
+              see the first reference to 'std::optional<uint32_t>::operator =' in 'VulkanCore::VCore::_FindQueueFamilies'
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\optional(297,15):
+          see reference to function template instantiation 'void std::_Optional_construct_base<_Ty>::_Assign<size_t&>(_Ty2) noexcept' being compiled
+          with
+          [
+              _Ty=uint32_t,
+              _Ty2=size_t &
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\xutility(506,61): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'src/VCore.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\xutility(506,61):
+      the template instantiation context (the oldest one first) is
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\optional(297,15):
+          see reference to function template instantiation 'void std::_Optional_construct_base<_Ty>::_Assign<size_t&>(_Ty2) noexcept' being compiled
+          with
+          [
+              _Ty=uint32_t,
+              _Ty2=size_t &
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\optional(158,13):
+          see reference to function template instantiation '_Ty &std::_Optional_construct_base<_Ty>::_Construct<size_t&>(size_t &) noexcept' being compiled
+          with
+          [
+              _Ty=uint32_t
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.43.34808\include\optional(146,14):
+          see reference to function template instantiation 'void std::_Construct_in_place<unsigned int,size_t&>(_Ty &,size_t &) noexcept' being compiled
+          with
+          [
+              _Ty=unsigned int
+          ]
+  
+  Generating Code...
   VulkanCore.vcxproj -> C:\Users\jstrunk\Projects\Raytracer\MTRaytracer\x64\Debug\VulkanCore.lib
