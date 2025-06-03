@@ -1,2 +1,2 @@
 # Raytracer
-Multi-threaded raytracer using Vulkan
+Hobby project creating a multi-threaded raytracer using Vulkan!

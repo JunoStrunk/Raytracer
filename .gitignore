@@ -30,3 +30,14 @@
 *.exe
 *.out
 *.app
+
+# Packages
+MTRaytracer/packages/
+
+#VS folder
+MTRaytracer/.vs/
+
+#Build folders
+MTRaytracer/x64/
+MTRaytracer/MTRaytracer/x64/
+MTRaytracer/VulkanCore/x64/
