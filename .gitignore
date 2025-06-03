@@ -32,7 +32,12 @@
 *.app
 
 # Packages
-/MTRaytracer/packages
+MTRaytracer/packages/
 
 #VS folder
-/MTRaytracer/.vs
+MTRaytracer/.vs/
+
+#Build folders
+MTRaytracer/x64/
+MTRaytracer/MTRaytracer/x64/
+MTRaytracer/VulkanCore/x64/
