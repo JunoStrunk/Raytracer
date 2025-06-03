@@ -34,10 +34,10 @@
 # Packages
 MTRaytracer/packages/
 
-#VS folder
+# VS folder
 MTRaytracer/.vs/
 
-#Build folders
+# Build folders
 MTRaytracer/x64/
 MTRaytracer/MTRaytracer/x64/
 MTRaytracer/VulkanCore/x64/
